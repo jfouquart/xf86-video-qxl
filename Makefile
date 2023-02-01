@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	xf86-video-qxl
-DISTVERSION=	0.1.5.99
+DISTVERSION=	0.1.6
 CATEGORIES=	x11-drivers
 
 MAINTAINER=	x11@FreeBSD.org
@@ -18,7 +18,7 @@ USES=		localbase:ldflags pkgconfig shebangfix xorg \
 USE_XORG=	xfont
 
 USE_GITLAB=	yes
-GL_COMMIT=	52e975263fe88105d151297768c7ac675ed94122
+GL_COMMIT=	f6f75e1b03ca0d25d546cf9e80d0317bd644bc8d
 
 CONFIGURE_ARGS+=--disable-xspice
 

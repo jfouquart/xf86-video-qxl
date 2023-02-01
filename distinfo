@@ -1,3 +1,3 @@
-TIMESTAMP = 1651059389
-SHA256 (xorg/driver/driver-xf86-video-qxl-52e975263fe88105d151297768c7ac675ed94122_GL0.tar.gz) = 2e93afdea1b3f9ee736cd842ce2129310eab3e4fa6baf9b6d750bb97a23fa70e
-SIZE (xorg/driver/driver-xf86-video-qxl-52e975263fe88105d151297768c7ac675ed94122_GL0.tar.gz) = 174000
+TIMESTAMP = 1675244848
+SHA256 (xorg/driver/driver-xf86-video-qxl-f6f75e1b03ca0d25d546cf9e80d0317bd644bc8d_GL0.tar.gz) = 509b89dd3458b6fb9e8837aa2427142e6f8554bbacc44535850ad7d620c68145
+SIZE (xorg/driver/driver-xf86-video-qxl-f6f75e1b03ca0d25d546cf9e80d0317bd644bc8d_GL0.tar.gz) = 174042
