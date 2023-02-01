@@ -13,14 +13,14 @@ BUILD_DEPENDS=	spice-protocol>=0.12.10:devel/spice-protocol \
 		${LOCALBASE}/include/linux/input.h:devel/evdev-proto
 LIB_DEPENDS=	libspice-server.so:devel/libspice-server
 
-USES=		localbase:ldflags pkgconfig shebangfix xorg \
+USES=		localbase:ldflags pkgconfig python shebangfix shebangfix xorg \
 		xorg-cat:driver
 USE_XORG=	xfont
 
 USE_GITLAB=	yes
 GL_COMMIT=	f6f75e1b03ca0d25d546cf9e80d0317bd644bc8d
 
-CONFIGURE_ARGS+=--disable-xspice
+CONFIGURE_ARGS+=--enable-xspice
 
 OPTIONS_DEFINE=	DOCS
 
